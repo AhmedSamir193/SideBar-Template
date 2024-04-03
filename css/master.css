@@ -740,7 +740,7 @@ label .toogle-switch::before {
 
 .checkbox-toogle:checked + .toogle-switch::before  {
     content: "\f00c";
-    left: 50px;
+    left: 50px !important;
     color: var(--blue-color);
 }
 
@@ -995,8 +995,8 @@ label .toogle-switch::before {
     font-size: 8px;
 }
 
-.checkbox-toogle:checked + .toogle-switch::before {
-    left: 60px;
+.over-view .info .box .checkbox-toogle:checked + .toogle-switch::before {
+    left: 60px !important;
 }
 
 @media (max-width: 767px) {
